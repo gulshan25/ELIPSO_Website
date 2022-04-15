@@ -103,14 +103,109 @@ input[type=text] {
 
 .right span {
     position: absolute;
-    top: 25px;
-    right: 20%;
+    top: 30px;
+    right: 16%;
     z-index: 1;
+}
+
+
+/* i {
+    position: fixed;
+} */
+
+.right {
+    margin: 0 auto;
 }
 
 
 /* background text */
 
 .banner {
-    top: 0;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+
+/* button */
+
+button {
+    border: 1px solid #333;
+    background-color: #fff;
+    /* width: 50px;
+    height: 50px; */
+}
+
+
+/* dots */
+
+.dots {
+    margin: 50px 100px;
+    display: flex;
+}
+
+
+/* cards */
+
+.cards {
+    padding-top: 50px;
+    display: flex;
+}
+
+.left-cards {
+    margin: 50px;
+    /* display: inline-block; */
+    width: 25%;
+    height: 25%;
+    /* width: 80px;
+    height: 80px;
+    margin: auto; */
+}
+
+.right-cards {
+    margin: 50px;
+    /* display: inline-block; */
+    width: 25%;
+    height: 25%;
+    /* width: 80px;
+    height: 80px;
+    margin: auto; */
+}
+
+.card-one {
+    box-sizing: border-box;
+    /* width: 25%;
+    height: 25%; */
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.card-three {
+    box-sizing: border-box;
+    /* width: 25%;
+    height: 25%; */
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.card-two {
+    box-sizing: border-box;
+    /* width: 25%;
+    height: 25%; */
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-four {
+    box-sizing: border-box;
+    /* width: 25%;
+    height: 25%; */
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-top: 20px;
 }
