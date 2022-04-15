@@ -166,7 +166,7 @@ button {
     margin: 50px;
     /* display: inline-block; */
     width: 25%;
-    height: 25%;
+    height: 15px;
     /* width: 80px;
     height: 80px;
     margin: auto; */
@@ -187,7 +187,7 @@ button {
     height: 25%; */
     /* height: 50px; */
     border: 1px solid #dee2e6;
-    padding: 20px;
+    padding: 15px;
 }
 
 .card-two {
@@ -198,6 +198,7 @@ button {
     border: 1px solid #dee2e6;
     padding: 20px;
     margin-top: 20px;
+    background-color: linear-gradient(180deg, purple, pink);
 }
 
 .card-four {
@@ -206,6 +207,6 @@ button {
     height: 25%; */
     /* height: 50px; */
     border: 1px solid #dee2e6;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 15px;
+    margin-top: 25px;
 }
