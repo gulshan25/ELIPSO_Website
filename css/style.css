@@ -198,7 +198,12 @@ button {
     border: 1px solid #dee2e6;
     padding: 20px;
     margin-top: 20px;
-    background-color: linear-gradient(180deg, purple, pink);
+    background-color: #8c4cf3;
+}
+
+.card-two a {
+    color: white;
+    text-decoration: none;
 }
 
 .card-four {
@@ -209,4 +214,260 @@ button {
     border: 1px solid #dee2e6;
     padding: 15px;
     margin-top: 25px;
+}
+
+.right-text {
+    padding-top: 80px;
+}
+
+.right-text h3 {
+    color: #8984ae;
+}
+
+.right-text p {
+    padding: 10px 0;
+    white-space: normal;
+}
+
+.servicesbtn {
+    border: 1px solid #8984ae;
+    padding: 12px 16px;
+    color: #fff;
+}
+
+.right-text a {
+    background-color: #7350ef;
+    text-decoration: none;
+}
+
+.bg-image img {
+    position: absolute;
+    background: no-repeat center center / cover;
+    width: 100%;
+    height: 50vh;
+    /* top: 0;
+    left: 0; */
+}
+
+.container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.container h3 {
+    color: #8984ae;
+}
+
+
+/* fixed cards */
+
+
+/* .three-cards {
+    margin: 50px;
+    /* display: inline-block; */
+
+
+/* width: 25%;
+    height: 25%;
+    padding: 20px; */
+
+
+/* position: relative; */
+
+.middle-cards {
+    position: absolute;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    top: 20;
+    left: 20;
+    margin: 20px 10px;
+    width: 100%;
+}
+
+.card-item-1 {
+    box-sizing: border-box;
+    width: 20%;
+    height: 20%;
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px 20px;
+    /* margin-top: 20px; */
+    background-color: white;
+}
+
+.card-item-1 span {
+    padding: 40px;
+}
+
+.card-item-1 h5 {
+    border-top: 1px solid #7350ef;
+    /* border-width: 5px; */
+    padding: 20px 20px;
+}
+
+.card-item-2 {
+    box-sizing: border-box;
+    width: 20%;
+    height: 20%;
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    /* margin-top: 20px; */
+    background-color: white;
+}
+
+.card-item-2 span {
+    padding: 40px;
+}
+
+.card-item-2 h5 {
+    border-top: 1px solid #7350ef;
+    /* border-width: 5px; */
+    padding: 20px 20px;
+}
+
+.card-item-3 {
+    box-sizing: border-box;
+    width: 20%;
+    height: 20%;
+    /* height: 50px; */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    /* margin-top: 20px; */
+    background-color: white;
+}
+
+.card-item-3 span {
+    padding: 40px;
+}
+
+.card-item-3 h5 {
+    border-top: 1px solid #7350ef;
+    /* border-width: 5px; */
+    padding: 20px 20px;
+}
+
+.three-cards span {
+    color: #7350ef;
+}
+
+.imgwtxt {}
+
+.imgwtxt .roundimg {
+    /* padding: 50px 50px;
+    margin: 50px 50px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding: 20px 20px;
+}
+
+.aboutus {
+    display: block;
+    background-color: lightgray;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduce {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 50px 50px;
+}
+
+.picintro img {
+    margin-left: 40px;
+}
+
+.picintro {
+    padding: 10px 60px;
+}
+
+.content {
+    padding: 50px 12px;
+}
+
+.content h4 {
+    color: #d4cefa;
+}
+
+.left-lists {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+}
+
+.right-lists {
+    display: flex;
+    padding: 20px 50px;
+}
+
+.left-lists i .fa fa-star {
+    background-color: #fff;
+    border-color: #d4cefa;
+}
+
+.contact h5 {
+    color: #6752ed;
+}
+
+.contact {
+    background-color: lightgrey;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contact a {
+    border: 1px solid #ef7172;
+    background-color: #ef7172;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0 16px;
+    margin-left: 100px;
+}
+
+.contact a .joinbtn {
+    border: 1px solid #ef7172;
+    background-color: #ef7172;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0 16px;
+    margin-left: 100px;
+}
+
+.contact span {
+    color: #ef7172;
+}
+
+.im {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.im img {
+    width: 500px;
+    height: 300px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-radius: 0 50px 0 0;
+}
+
+.communitytext {
+    padding-right: 50px;
+}
+
+.question-1 {
+    display: flex;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-around;
 }
