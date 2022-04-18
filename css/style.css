@@ -470,4 +470,43 @@ button {
 .questions {
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
+}
+
+.footer {
+    padding-top: 50px;
+    display: block;
+}
+
+.footer-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer-wrapper .links a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright {
+    padding-left: 50px;
+}
+
+.newsletters {
+    width: 50%;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    background-color: #6752ed;
+    display: flex;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #000;
 }
